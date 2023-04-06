@@ -8,7 +8,7 @@ Hello, world!
 
 [Link](https://ucsd-cse15l-s23.github.io/week/week1/)
 
-![Image](https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.pngall.com%2Fwp-content%2Fuploads%2F5%2FPug-PNG-Images.png&tbnid=x7Pu8SvEfIV_AM&vet=12ahUKEwjrx9uRipb-AhU2PkQIHe5eDWIQMygCegUIARDtAQ..i&imgrefurl=https%3A%2F%2Fwww.pngall.com%2Fpug-png%2Fdownload%2F48372&docid=c2MWBwXpMe9QYM&w=800&h=851&q=%20pug%20png&ved=2ahUKEwjrx9uRipb-AhU2PkQIHe5eDWIQMygCegUIARDtAQ)
+![Image](https://img.freepik.com/free-photo/red-white-cat-i-white-studio_155003-13189.jpg?w=740&t=st=1680812556~exp=1680813156~hmac=1d8fd530ac3d48c8a1d41c272f3b65217921436c48de5bbc7c994ea716f7b28a)
 
 > UCSD
 
@@ -21,3 +21,10 @@ Hello, world!
 3. MATH 18
 
 ---
+
+'Emily' Holguin
+
+'''
+This is java block code
+java code
+'''
