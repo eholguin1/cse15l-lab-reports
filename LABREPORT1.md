@@ -1,4 +1,4 @@
-# Lab Report 1
+# Lab Report 1 - Week 1
 This tutorial will cover remote access to a course-specific account on `ieng6`.
 
 ## Installing VS Code
@@ -46,6 +46,10 @@ Try using some commands listed below both on your computer and on the remote com
 * `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
 * `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 
-Your terminal should look similar to this below while using the different commands:
+Your terminal should look similar to the one below while trying the different commands:
+![Image](https://github.com/eholguin1/cse15l-lab-reports/blob/main/Screenshot%202023-04-08%20at%206.33.48%20PM.png)
 
+**To log out of the remote server in your terminal** 
+
+Execute "Control-D" or running the command `exit` in the terminal
 
