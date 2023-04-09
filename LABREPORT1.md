@@ -49,7 +49,7 @@ Try using some commands listed below both on your computer and on the remote com
 Your terminal should look similar to the one below while trying the different commands:
 ![Image](CSE15l - lab1 - commands.jpg)
 
-**To log out of the remote server in your terminal** 
+**To log out of the remote server in your terminal**
 
 Execute "Control-D" or running the command `exit` in the terminal
 
