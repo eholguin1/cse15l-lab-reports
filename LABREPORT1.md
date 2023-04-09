@@ -5,7 +5,7 @@ This tutorial will cover remote access to a course-specific account on `ieng6`.
 [Download](https://code.visualstudio.com/download) the correct option for your operation system(Windows, mac, etc). (If I am on a Mac, for example I should download the VS Coder installer for Mac.
 
 Once launched, you should see a screen similar to the one below:
-![Image](https://github.com/eholguin1/cse15l-lab-reports/blob/main/Screenshot%202023-04-08%20at%206.16.18%20PM.png)
+![Image](CSE15l - lab1 - VScode.jpg)
 
 ## Remotely Connecting
 In this section, we will learn how to use VSCode to connect to a remote computer.
