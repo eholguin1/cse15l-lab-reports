@@ -47,7 +47,7 @@ Try using some commands listed below both on your computer and on the remote com
 * `cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
 
 Your terminal should look similar to the one below while trying the different commands:
-![Image](https://github.com/eholguin1/cse15l-lab-reports/blob/main/Screenshot%202023-04-08%20at%206.33.48%20PM.png)
+![Image](CSE15l - lab1 - commands)
 
 **To log out of the remote server in your terminal** 
 
