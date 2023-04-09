@@ -28,7 +28,6 @@ RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? 
 Password: ``
 * Type in "yes" which lets you connect to a new server for the first time. After it should ask you for your password that you created in ETS. 
-
 4. Finally, you should see a output similar to the one below:
 ![Image](CSE15l - lab1 - ssh.jpg)
 **Now your computer is connected to a computer in the CSE basement and any commands that are ran will run on that computer!!**
