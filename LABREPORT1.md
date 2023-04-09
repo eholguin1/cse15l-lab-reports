@@ -12,7 +12,7 @@ In this section, we will learn how to use VSCode to connect to a remote computer
 
 **Set up your course-specific account**
 
-First step is to look up your course-specific account for CSE15L with this link:[ETS](https://sdacs.ucsd.edu/~icc/index.php)
+First step is to look up your course-specific account for CSE15L with this link: [ETS](https://sdacs.ucsd.edu/~icc/index.php)
 * There, you will find your username, which should look similar to "cs15sp23ii."
 
 **Using `ssh`**
