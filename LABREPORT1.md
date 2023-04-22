@@ -43,7 +43,7 @@ Try using some commands listed below both on your computer and on the remote com
 
    > "changes directory" - used to switch the current working director to the path before
 
-   ![Image](
+   ![Image](Screenshot 2023-04-22 at 2.46.05 PM.png)
 
 * `cd <path>`
 
