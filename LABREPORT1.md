@@ -40,7 +40,13 @@ Try using some commands listed below both on your computer and on the remote com
 > *Tip:* Pressing the "up" button on your keyboard will prompt the last executed command on the terminal!
 
 * `cd ~`
-* `cd`
+
+   > 
+
+* `cd`<path>
+
+   > "changes directory" - used to switch the current working director to the given path 
+ 
 * `ls -lat`
 * `ls -a`
 * `ls <directory>` where `<directory>` is `/home/linux/ieng6/cs15lsp23/cs15lsp23abc`, where the `abc` is one of the other group members’ username
