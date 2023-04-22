@@ -43,6 +43,8 @@ Try using some commands listed below both on your computer and on the remote com
 
    > "changes directory" - used to switch the current working director to the path before
 
+   ![Image](
+
 * `cd <path>`
 
    > "changes directory" - used to switch the current working director to the given path 
@@ -50,6 +52,8 @@ Try using some commands listed below both on your computer and on the remote com
 * `ls -lat`
 
    > "list" - used to list the files and folders for the given path
+
+   ![Image](Screenshot 2023-04-22 at 2.43.44 PM.png)
 
 * `ls -a`
 
