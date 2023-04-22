@@ -43,7 +43,7 @@ Try using some commands listed below both on your computer and on the remote com
 
    > 
 
-* `cd`<path>
+* `cd <path>`
 
    > "changes directory" - used to switch the current working director to the given path 
  
