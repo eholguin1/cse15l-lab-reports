@@ -78,5 +78,9 @@ public class StringServer
 
 ** Examples using `/add-message`
 
-![Image](
+![Image](Labreport2-hello.png)
+
+The URL used - `localhost:2/add-message?s=Hello
+
+
 
