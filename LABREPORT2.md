@@ -82,5 +82,10 @@ public class StringServer
 
 The URL used is `localhost:2/add-message?s=Hello`
 
+![Image](Labreport2-howareyou.png)
+
+The URL used are `localhose:2/add-message?s=How are you`
+
+
 
 
