@@ -176,3 +176,7 @@ static double averageWithoutLowest(double[] arr) {
   }
 ```
 
+The bug in the original code was that it was checking if an element is equal to the lowest value, so if there are multiple of the same element that match the lowest value, then all of them are removed. Which is why in the first test fails since it has duplicates and the second test passes(no duplicates). To fix the bug, the code has to keep track of the specific index where the lowest value was found. With this, only one element with the specific index will be removed. 
+
+## Part 3 : Something I Learned 
+I learned how to make a web server where the program will take a URL as an input and respond with the text of a web page as I never knew that it was possible to do it. With the URL a query can be added to it so a String could be added or increment a value, with multiple people doing it at the same time it will continue to work. 
