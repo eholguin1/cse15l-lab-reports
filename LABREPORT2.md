@@ -76,7 +76,7 @@ public class StringServer
 }
 ```
 
-** Examples using `/add-message`
+** Examples using `/add-message`**
 
 ![Image](Labreport2-hello.png)
 
