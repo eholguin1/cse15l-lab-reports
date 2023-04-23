@@ -88,7 +88,7 @@ The method `StringHandler.handleRequest(URI url)` is being called with the argum
 
 The URL used are `localhost:2/add-message?s=How are you`
 
-The method `StringHandler.handleRequest(URI url)` is being called with the argument being a URI object that represents the URL which is 'localhost2:add-message?s=How are you`. The method anaylzes the URI and adds it to the `StringHandler`'s `String string` field to add the 'How are you' string after the 'Hello` string. 
+The method `StringHandler.handleRequest(URI url)` is being called with the argument being a URI object that represents the URL which is `localhost2:add-message?s=How are you`. The method anaylzes the URI and adds it to the `StringHandler`'s `String string` field to add the `How are you` string after the `Hello` string. 
 
 
 
