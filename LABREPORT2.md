@@ -80,7 +80,7 @@ public class StringServer
 
 ![Image](Labreport2-hello.png)
 
-The URL used - `localhost:2/add-message?s=Hello
+The URL used is `localhost:2/add-message?s=Hello`
 
 
 
