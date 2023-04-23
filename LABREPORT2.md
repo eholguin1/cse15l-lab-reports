@@ -82,9 +82,13 @@ public class StringServer
 
 The URL used is `localhost:2/add-message?s=Hello`
 
+The method `StringHandler.handleRequest(URI url)` is being called with the argument being a URI object that represents the URL which is `localhost2:2/add-message?s=Hello`. The method anaylzes the URI and changes the `StringHandler`'s `String string` field to add the `Hello` string.
+
 ![Image](Labreport2-howareyou.png)
 
-The URL used are `localhose:2/add-message?s=How are you`
+The URL used are `localhost:2/add-message?s=How are you`
+
+The method `StringHandler.handleRequest(URI url)` is being called with the argument being a URI object that represents the URL which is 'localhost2:add-message?s=How are you`. The method anaylzes the URI and adds it to the `StringHandler`'s `String string` field to add the 'How are you' string after the 'Hello` string. 
 
 
 
