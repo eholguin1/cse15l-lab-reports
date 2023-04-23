@@ -109,7 +109,7 @@ Test
 
 **Passing Input**
 
-Test 
+Test:
 
 ```
 @Test
@@ -120,13 +120,13 @@ Test
   }
 ```
 
-Output of Both Tests Together
+Output of Both Tests Together:
 
 ![Image](Labreport2-tests.png)
 
 **Bug Fix**
 
-Before
+Before:
 
 ```
 static double averageWithoutLowest(double[] arr) {
@@ -149,7 +149,7 @@ static double averageWithoutLowest(double[] arr) {
   }
   ```
   
-  After 
+  After: 
   
   ```
 static double averageWithoutLowest(double[] arr) {
