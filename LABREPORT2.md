@@ -105,24 +105,6 @@ Test
     double test = ArrayExamples.averageWithoutLowest(input1);
     assertEquals(2.0, test, 0.0);
   }
-  ```
-  
-  Output
-  ```
-  JUnit version 4.13.2
-.E
-Time: 0.009
-There was 1 failure:
-1) testaverageWithoutLowest(ArrayTests)
-java.lang.AssertionError: expected:<2.0> but was:<0.0>
-        at org.junit.Assert.fail(Assert.java:89)
-        at org.junit.Assert.failNotEquals(Assert.java:835)
-        at org.junit.Assert.assertEquals(Assert.java:555)
-        at org.junit.Assert.assertEquals(Assert.java:685)
-        at ArrayTests.testaverageWithoutLowest(ArrayTests.java:34)
-
-FAILURES!!!
-Tests run: 1,  Failures: 1
 ```
 
 **Passing Input**
@@ -130,18 +112,45 @@ Tests run: 1,  Failures: 1
 Test 
 
 ```
+@Test
+  public void testaverageWithouthLowest2(){
+    double[] input1 = {2.0, 4.0, 6.0};
+    double test = ArrayExamples.averageWithoutLowest(input1);
+    assertEquals(5.0, test, 0.0);
+  }
 ```
 
-Output
+Output of Both Test Together
 
-```
-```
+![Image](
 
 **Bug Fix**
 
 Before
 
 ```
-
+static double averageWithoutLowest(double[] arr) {
+    if(arr.length < 2) { 
+        return 0.0; 
+    }
+    double lowest = arr[0];
+    for(double num: arr) {
+      if(num < lowest) { 
+        lowest = num; 
+      }
+    }
+    double sum = 0;
+    for(double num: arr) {
+      if(num != lowest) { 
+        sum += num; 
+      }
+    }
+    return sum / (arr.length - 1);
+  }
+  ```
+  
+  After 
+  
+  ```
 
 
