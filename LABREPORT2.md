@@ -1,4 +1,4 @@
-# Lab Report 1 - Week 3 (Servers & Bugs) 
+# Lab Report 2 - Week 3 (Servers & Bugs) 
 
 ## Part 1 : String Server
 
@@ -90,6 +90,58 @@ The URL used are `localhost:2/add-message?s=How are you`
 
 The method `StringHandler.handleRequest(URI url)` is being called with the argument being a URI object that represents the URL which is `localhost2:add-message?s=How are you`. The method anaylzes the URI and adds it to the `StringHandler`'s `String string` field to add the `How are you` string after the `Hello` string. 
 
+## Part 2 : Bug Test
+
+Bug Test in the `ArrayExamples.averageWithoutLowest(double[])` method.
+
+**Failing Input**
+
+Test 
+
+```
+@Test
+  public void testaverageWithoutLowest(){
+    double[] input1 = {2.0,2.0,2.0};
+    double test = ArrayExamples.averageWithoutLowest(input1);
+    assertEquals(2.0, test, 0.0);
+  }
+  ```
+  
+  Output
+  ```
+  JUnit version 4.13.2
+.E
+Time: 0.009
+There was 1 failure:
+1) testaverageWithoutLowest(ArrayTests)
+java.lang.AssertionError: expected:<2.0> but was:<0.0>
+        at org.junit.Assert.fail(Assert.java:89)
+        at org.junit.Assert.failNotEquals(Assert.java:835)
+        at org.junit.Assert.assertEquals(Assert.java:555)
+        at org.junit.Assert.assertEquals(Assert.java:685)
+        at ArrayTests.testaverageWithoutLowest(ArrayTests.java:34)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+```
+
+**Passing Input**
+
+Test 
+
+```
+```
+
+Output
+
+```
+```
+
+**Bug Fix**
+
+Before
+
+```
 
 
 
