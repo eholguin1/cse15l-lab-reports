@@ -120,9 +120,9 @@ Test
   }
 ```
 
-Output of Both Test Together
+Output of Both Tests Together
 
-![Image](
+![Image](Labreport2-tests.png)
 
 **Bug Fix**
 
@@ -152,5 +152,27 @@ static double averageWithoutLowest(double[] arr) {
   After 
   
   ```
+static double averageWithoutLowest(double[] arr) {
+    if (arr.length < 2)
+        return 0.0;
 
+    int lowestIndex = 0;
+    for (int i = 0; i < arr.length; i++)
+    {
+      if (arr[i] < arr[lowestIndex]){
+        lowestIdx = i;
+      }
+    }
+
+    double sum = 0;
+    for (int i = 0; i < arr.length; i++)
+    {
+      if (i != lowestIndex){
+        sum += arr[i];
+      }
+    }
+
+    return sum / (arr.length - 1);
+  }
+```
 
