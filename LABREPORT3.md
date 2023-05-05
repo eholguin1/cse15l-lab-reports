@@ -3,5 +3,4 @@
 ## Others ways to use 'find' command
 
 **Less -p[string] [file path]**
-
-
+___
