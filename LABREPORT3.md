@@ -13,4 +13,24 @@ Input:
 ```
 emilyholguin@Emilys-MacBook-Pro-7 docsearch % less -pPresident technical/911reports/chapter-1.txt
 ```
+
+Output:
+
+
   
+The output shows that we are searching for "President" in the file. As it highlights the word throughout the file. 
+
+**Example 2:**
+
+Input: 
+
+```
+emilyholguin@Emilys-MacBook-Pro-7 docsearch % less -pEmily technical/government/About_LSC/Progress_report.txt
+```
+
+Output:
+
+
+
+In this example, we are searching for "Emily" in the file. However it did not find any occurences of the string which is why we got the above output. 
+
