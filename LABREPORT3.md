@@ -38,7 +38,7 @@ In this example, we are searching for "Emily" in the file. However it did not fi
 This command was found using `man find` in the terminal.
 ____
 
-> less -X[file path]
+> **less -X[file path]**
 ___
 
 This command leaves the contents of the file in the terminal after exiting. As you are able to control how much of the file will be represented in the terminal. This is useful for when you need to reference back to something in the file when you are in the terminal.
@@ -74,7 +74,7 @@ With the contents being in the terminal, it is easier to reference back to it th
 This command was found using `man find` in the terminal.
 
 ---
-> find -type [type] -name [file name]
+> **find -type [type] -name [file name]**
 ___
 
 This command finds only files or only directories with the file name. If you only want to search for directories the specify type -d as if you only want to look for files, then the specify file type -f.
@@ -109,6 +109,6 @@ Output:
 
 The output shows that the name "911report" is being searched in the type of directories. The second command is showing that the name "government" is not being found as a directories.
 
-This command was found using [Link](https://linuxhandbook.com/find-command-examples/)
+This command was found using this [link](https://linuxhandbook.com/find-command-examples/)
 
 ___
