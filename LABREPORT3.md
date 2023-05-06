@@ -143,3 +143,5 @@ Output:
 This is showing that no files are the size 4000 in the `./technical`. This is useful to see how big or small files are in the files overall. As well as see what files are not sized as.
 
 This command was found using this [link](https://linuxhandbook.com/find-command-examples/)
+
+___
