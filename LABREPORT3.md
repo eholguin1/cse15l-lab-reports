@@ -16,7 +16,7 @@ emilyholguin@Emilys-MacBook-Pro-7 docsearch % less -pPresident technical/911repo
 
 Output:
 
-
+![Image] (lab report 3 - find president.png)
   
 The output shows that we are searching for "President" in the file. As it highlights the word throughout the file. 
 
