@@ -74,4 +74,41 @@ With the contents being in the terminal, it is easier to reference back to it th
 This command was found using `man find` in the terminal.
 
 ---
-> 
+> find -type [type] -name [file name]
+___
+
+This command finds only files or only directories with the file name. If you only want to search for directories the specify type -d as if you only want to look for files, then the specify file type -f.
+
+**Example 1**
+
+Input:
+
+```
+emilyholguin@Emilys-MacBook-Pro-7 docsearch % find . -type f -name chapter
+```
+
+Output:
+
+![Image](labreport3-type1.png)
+
+This command is searching for files that have a name "chapter" as since in the output nothing comes up because there is no files named that in `technical`.
+
+**Example 2**
+
+Input: 
+
+```
+emilyholguin@Emilys-MacBook-Pro-7 docsearch % find . -type d -name 911report
+./technical/911report
+emilyholguin@Emilys-MacBook-Pro-7 docsearch % find . -type d -name governments
+```
+
+Output:
+
+![Image](labreport3-type2.png)
+
+The output shows that the name "911report" is being searched in the type of directories. The second command is showing that the name "government" is not being found as a directories.
+
+This command was found using [Link](https://linuxhandbook.com/find-command-examples/)
+
+___
