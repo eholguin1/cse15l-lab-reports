@@ -36,6 +36,7 @@ Output:
 In this example, we are searching for "Emily" in the file. However it did not find any occurences of the string which is why we got the above output. 
 
 This command was found using `man find` in the terminal.
+
 ____
 
 ## less -X[file path]
@@ -89,7 +90,7 @@ Output:
 
 ![Image](labreport3-type1.png)
 
-This command is searching for files that have a name "chapter" as since in the output nothing comes up because there is no files named that in `technical`.
+This command is searching for files that have a name "chapter" as since in the output nothing comes up because there is no files named that in `technical`.This is useful because it is a faster way to find files depending on if they are files or dictories. 
 
 **Example 2**
 
@@ -105,8 +106,40 @@ Output:
 
 ![Image](labreport3-type2.png)
 
-The output shows that the name "911report" is being searched in the type of directories. The second command is showing that the name "government" is not being found as a directories.
+The output shows that the name "911report" is being searched in the type of directories. The second command is showing that the name "government" is not being found as a directories. This is useful because it is a faster way to find files depending on if they are files or dictories. 
 
 This command was found using this [link](https://linuxhandbook.com/find-command-examples/)
 
 ___
+
+## find . -size [N]
+
+This comamnd can find the sizes of the files and display the files that are either the exact same in the terminal. To search for files that are bigger than N than an addition sign is included before the number as to search for a smaller files a minus sign goes in front of the number. 
+
+Input:
+
+```
+emilyholguin@Emilys-MacBook-Pro-7 docsearch % find . -size 40
+```
+
+Output:
+
+![Image](labreport3-size2.png)
+
+This shows the files that are the size of 40 in the `./technical`. This is useful to see how big or small files are in the files overall. 
+
+**Example 2:**
+
+Input:
+
+```
+emilyholguin@Emilys-MacBook-Pro-7 docsearch % find . -size 4000
+```
+
+Output:
+
+![Image](labreport3-size1.png)
+
+This is showing that no files are the size 4000 in the `./technical`. This is useful to see how big or small files are in the files overall. As well as see what files are not sized as.
+
+This command was found using this [link](https://linuxhandbook.com/find-command-examples/)
