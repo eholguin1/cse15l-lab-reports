@@ -73,7 +73,7 @@ With the contents being in the terminal, it is easier to reference back to it th
 This command was found using `man find` in the terminal.
 
 ___
-## find -type [type] -name [file name]**
+## find -type [type] -name [file name]
 
 This command finds only files or only directories with the file name. If you only want to search for directories the specify type -d as if you only want to look for files, then the specify file type -f.
 
