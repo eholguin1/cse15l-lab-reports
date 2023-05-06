@@ -32,7 +32,6 @@ Output:
 
 ![Image](labreport3-find2.png)
 
-This command was found using `man find` in the terminal.
-
 In this example, we are searching for "Emily" in the file. However it did not find any occurences of the string which is why we got the above output. 
 
+This command was found using `man find` in the terminal.
