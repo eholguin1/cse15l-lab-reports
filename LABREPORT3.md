@@ -35,3 +35,37 @@ Output:
 In this example, we are searching for "Emily" in the file. However it did not find any occurences of the string which is why we got the above output. 
 
 This command was found using `man find` in the terminal.
+____
+
+> less -X[file path]
+___
+
+This command leaves the contents of the file in the terminal after exiting. As you are able to control how much of the file will be represented in the terminal. This is useful for when you need to reference back to something in the file when you are in the terminal.
+
+**Example 1**
+
+Input:
+
+```
+emilyholguin@Emilys-MacBook-Pro-7 docsearch % less -X technical/biomed/1468-6708-3-1.txt
+```
+
+Output:
+
+
+
+-X allows you to decide how much of the file will display on the terminal as you are able to adjust the length of how much text to show. This is helpful when you might want to see a snippet of the file or a large part of it without having to scroll through the file again. 
+
+**Example 2**
+
+Input:
+
+```
+emilyholguin@Emilys-MacBook-Pro-7 docsearch % less -X technical/plos/journal.pbio.0020010.txt
+```
+
+Output:
+
+
+
+With the contents being in the terminal, it is easier to reference back to it than looking through the file over again. As the docsearch % is on the bottom of the pictures showing that we are back in the terminal with the portion of content saved. 
