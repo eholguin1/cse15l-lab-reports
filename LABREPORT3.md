@@ -4,7 +4,7 @@
 
 ___
 ## less -p[string] [file path]
-___
+
 This alternate way of the 'find' command will highlight any occurance of the string that was passed in the given file. When this command is use, it will go to the first occurence of the string in the file. 
 
 **Example 1:**
@@ -38,8 +38,7 @@ In this example, we are searching for "Emily" in the file. However it did not fi
 This command was found using `man find` in the terminal.
 ____
 
-> **less -X[file path]**
-___
+## less -X[file path]
 
 This command leaves the contents of the file in the terminal after exiting. As you are able to control how much of the file will be represented in the terminal. This is useful for when you need to reference back to something in the file when you are in the terminal.
 
@@ -73,9 +72,8 @@ With the contents being in the terminal, it is easier to reference back to it th
 
 This command was found using `man find` in the terminal.
 
----
-> **find -type [type] -name [file name]**
 ___
+## find -type [type] -name [file name]**
 
 This command finds only files or only directories with the file name. If you only want to search for directories the specify type -d as if you only want to look for files, then the specify file type -f.
 
