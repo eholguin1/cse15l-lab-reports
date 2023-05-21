@@ -71,11 +71,22 @@
 **Step 5: Run the tests, deonstrating that they now succeed**
 
 * Rerun the tests 
+  * `bash test.sh`
 
 ![Image]()
 
 **Step 6: Commit and push the resulting change to your Github account**
 
+* Copy and paste these commands into the terminal
+
+```
+git remote set-url origin git@github.com:eholguin1/lab7.git
+git add *
+git commit -m "message"
+git push -u origin main
+```
+
+![Image]()
 
 
 
