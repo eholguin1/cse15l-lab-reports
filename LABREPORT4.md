@@ -8,7 +8,7 @@
   *  `__` is your unquie two letters 
 * Since the bash credential is already set up in the remote server, entering a password should not be necessary
 
-![Image]()
+![Image](labreport4-login.png)
 
 **Step 2: Clone your fock of the respositroy from your Github account**
 
@@ -16,7 +16,7 @@
   * Copy the ssh link of the remove repository from the your Github account
   * Type `git clone` into the terminal with the copied link after it (`git clone <right click>`)
 
-![Image]()
+![Image](labreport4-clone.png)
 
 **Step 3: Run the tests, Demonstrating that they fail**
 
@@ -32,7 +32,7 @@
   
   2. Type this command `bash test.sh`
 
-![Image]()
+![Image](labreport4-failedtest.png)
 
 **Step 4: Edit the code file to fix the failing test**
 
@@ -40,40 +40,40 @@
  
   * `vim ListExamples.java`
  
-  ![Image]()
+  ![Image](labreport4-0.png)
   
 2. To reach the bottom of the file without having to click `<j>` to move down and `<l>` to move to the right
  
   * Do the command `?index` which will put the cursor at the last time "index" is shown in the code file.
   * Then click `enter`
 
-  ![Image]()
+  ![Image](labreport4-1.png)
   
 3. To get to the last letter of "index" 
 
   * Type `e` which will put you at the end of the word 
 
-  ![Image]()
+  ![Image](labreport4-2.png)
   
 4. To change `index1` to `index2`
  
   * Type `r2` which will change the 1 to 2 
 
-  ![Image]()
+  ![Image](labreport4-3.png)
 
 5. To save and quit the code file with the new change
 
   * Type `:wq` which will save the changes and exit vim
   * Then click `enter`
 
-  ![Image]()
+  ![Image](labreport4-4.png)
   
 **Step 5: Run the tests, deonstrating that they now succeed**
 
 * Rerun the tests 
   * `bash test.sh`
 
-![Image]()
+![Image](labreport4-sucesstest.png)
 
 **Step 6: Commit and push the resulting change to your Github account**
 
@@ -86,9 +86,10 @@ git commit -m "message"
 git push -u origin main
 ```
 
-![Image]()
+* The following result should appear in the terminal that shows all the files have been successfully committed and pushed
 
+![Image](labreport4-push.png)
 
+* In Github, we can see these files occurred
 
-
-
+![Image](labreport4-files.png)
