@@ -32,6 +32,32 @@
   
   2. Type this command `bash test.sh`
 
+![Image]()
+
+**Step 4: Edit the code file to fix the failing test**
+
+1. To inspect the code, we need to go into `vim` 
+  * `vim ListExamples.java`
+  ![Image]()
+  
+2. To reach the bottom of the file without having to click `<j>` to move down and `<l>` to move to the right
+  * Do the command `?index` which will put the cursor at the last time "index" is shown in the code file.
+  * Then click `enter`
+  ![Image]()
+  
+3. To get to the last letter of "index" 
+  * Type `e` which will put you at the end of the word 
+  ![Image]()
+  
+4. To change `index1` to `index2` 
+  * Type `r2` which will change the 1 to 2 
+  ![Image]()
+
+5. To save and quit the code file with the new change 
+  * Type `:wq` which will save the changes and exit vim
+  * Then click `enter`
+  ![Image]()
+
 
 
 
