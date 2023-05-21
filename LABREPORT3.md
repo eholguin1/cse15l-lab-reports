@@ -88,7 +88,7 @@ emilyholguin@Emilys-MacBook-Pro-7 docsearch % less -N technical/911report/chapte
 
 Output:
 
-![Image]()
+![Image](labreport3-N1.png)
 
 This command is displaying line numbers on the side of the text file to make it easier to find a specific text again. As this is helpful because it is easier to locate a specific issue or text.  
 
