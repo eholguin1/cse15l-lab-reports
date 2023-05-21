@@ -116,7 +116,7 @@ This comamnd will squeeze mutiple blank lines from a text file into one blank li
 
 Before file:
 
-![Image]()
+![Image](labreport3-s11.png)
 
 Input:
 
@@ -126,7 +126,7 @@ emilyholguin@Emilys-MacBook-Pro-7 docsearch % less -s technical/government/media
 
 Output:
 
-![Image]()
+![Image](labreport3-s12.png)
 
 This output is showing that there is less blank linkes in the beginning of the text file so that there will be more content of the the text to be shown. This is helpful because it allows the user to see more text at once or to take a picture of the text together rather than having to take mutiple pictures.  
 
@@ -134,7 +134,7 @@ This output is showing that there is less blank linkes in the beginning of the t
 
 Before File: 
 
-![Image]()
+![Image](labreport3-s21.png)
 
 Input:
 
@@ -144,7 +144,7 @@ emilyholguin@Emilys-MacBook-Pro-7 docsearch % less -s technical/government/media
 
 Output:
 
-![Image]()
+![Image](labreport3-s22.png)
 
 This output is showing that there is less blank linkes in the beginning of the text file so that there will be more content of the the text to be shown. This is helpful because it allows the user to see more text at once or to take a picture of the text together rather than having to take mutiple pictures.  
 
