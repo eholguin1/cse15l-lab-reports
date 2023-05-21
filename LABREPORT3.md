@@ -102,7 +102,7 @@ emilyholguin@Emilys-MacBook-Pro-7 docsearch % less -N technical/government/media
 
 Output:
 
-![Image]()
+![Image](labreport3-N2.png)
 
 The output shows the file from technical to government to the media file with the A helping hand text with the line numbers on the side to make it easier to find something in the text.  
 
