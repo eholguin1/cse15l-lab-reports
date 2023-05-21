@@ -1,11 +1,11 @@
 # Lab Report 3 - Week 5 (Researching Commands)
 
-## *Others ways to use 'find' command*
+## *Others ways to use `less` command*
 
 ___
 ## less -p[string] [file path]
 
-This alternate way of the 'find' command will highlight any occurance of the string that was passed in the given file. When this command is use, it will go to the first occurence of the string in the file. 
+This alternate way of the `less` command will highlight any occurance of the string that was passed in the given file. When this command is use, it will go to the first occurence of the string in the file. 
 
 **Example 1:**
 
@@ -74,74 +74,80 @@ With the contents being in the terminal, it is easier to reference back to it th
 This command was found using `man find` in the terminal.
 
 ___
-## find -type [type] -name [file name]
+## less -N [file name]
 
-This command finds only files or only directories with the file name. If you only want to search for directories the specify type -d as if you only want to look for files, then the specify file type -f.
+This command will display line numbers of the specific file so it is easier to find a certain part of the text in the file. 
 
 **Example 1**
 
 Input:
 
 ```
-emilyholguin@Emilys-MacBook-Pro-7 docsearch % find . -type f -name chapter
+emilyholguin@Emilys-MacBook-Pro-7 docsearch % less -N technical/911report/chapter-2.txt
 ```
 
 Output:
 
-![Image](labreport3-type1.png)
+![Image]()
 
-This command is searching for files that have a name "chapter" as since in the output nothing comes up because there is no files named that in `technical`.This is useful because it is a faster way to find files depending on if they are files or dictories. 
+This command is displaying line numbers on the side of the text file to make it easier to find a specific text again. As this is helpful because it is easier to locate a specific issue or text.  
 
 **Example 2**
 
 Input: 
 
 ```
-emilyholguin@Emilys-MacBook-Pro-7 docsearch % find . -type d -name 911report
-./technical/911report
-emilyholguin@Emilys-MacBook-Pro-7 docsearch % find . -type d -name governments
+emilyholguin@Emilys-MacBook-Pro-7 docsearch % less -N technical/government/media/A_helping_hand.txt
 ```
 
 Output:
 
-![Image](labreport3-type2.png)
+![Image]()
 
-The output shows that the name "911report" is being searched in the type of directories. The second command is showing that the name "government" is not being found as a directories. This is useful because it is a faster way to find files depending on if they are files or dictories. 
+The output shows the file from technical to government to the media file with the A helping hand text with the line numbers on the side to make it easier to find something in the text.  
 
-This command was found using this [link](https://linuxhandbook.com/find-command-examples/)
+This command was found using this [link](https://phoenixnap.com/kb/less-command-in-linux)
 
 ___
 
-## find . -size [N]
+## less -s [file name]
 
-This comamnd can find the sizes of the files and display the files that are either the exact same in the terminal. To search for files that are bigger than N than an addition sign is included before the number as to search for a smaller files a minus sign goes in front of the number. 
+This comamnd will squeeze mutiple blank lines from a text file into one blank line. This command helps the less command show more of the file's content on the screen without having to scroll as much. 
+
+Before file:
+
+![Image]()
 
 Input:
 
 ```
-emilyholguin@Emilys-MacBook-Pro-7 docsearch % find . -size 40
+emilyholguin@Emilys-MacBook-Pro-7 docsearch % less -s technical/government/media/Annual_Fee.txt
 ```
 
 Output:
 
-![Image](labreport3-size2.png)
+![Image]()
 
-This shows the files that are the size of 40 in the `./technical`. This is useful to see how big or small files are in the files overall. 
+This output is showing that there is less blank linkes in the beginning of the text file so that there will be more content of the the text to be shown. This is helpful because it allows the user to see more text at once or to take a picture of the text together rather than having to take mutiple pictures.  
 
 **Example 2:**
 
+Before File: 
+
+![Image]()
+
 Input:
 
 ```
-emilyholguin@Emilys-MacBook-Pro-7 docsearch % find . -size 4000
+emilyholguin@Emilys-MacBook-Pro-7 docsearch % less -s technical/government/media/Avoids_Budget_Cut.txt
 ```
 
 Output:
 
-![Image](labreport3-size1.png)
+![Image]()
 
-This is showing that no files are the size 4000 in the `./technical`. This is useful to see how big or small files are in the files overall. As well as see what files are not sized as.
+This output is showing that there is less blank linkes in the beginning of the text file so that there will be more content of the the text to be shown. This is helpful because it allows the user to see more text at once or to take a picture of the text together rather than having to take mutiple pictures.  
 
-This command was found using this [link](https://linuxhandbook.com/find-command-examples/)
+This command was found using this [link](https://phoenixnap.com/kb/less-command-in-linux)
 
 ___
