@@ -15,8 +15,8 @@ Screenshots are great, copy-pasted terminal output is also great. Avoid saying â
 
 > The error that I faced was when running grade.sh output syntax errors for TestListExamples.java which was a file that was cloned before in the skill demo 2. As the results displaced the score of '/' at the end. The correct output of the script is that it should successfully run for the test in TestListExamples.java to test the ListExamples.java file and for all the test to be successful. 
 
-![Image]()
-![Image]()
+![Image](labreport5-1.png)
+![Image](labreport5-2.png)
 
 **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, 
 command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
@@ -29,7 +29,7 @@ This is a very interesting error. The first thing to try is using grade.sh with 
 ## Student's response and Using advice: 
 Thank you for the advice as the error was about the mix up with `-f` and `find` command as I was using the `find` command which results in the paths of the file we are searching for. While `-f` command will return a boolean which is what we need of the if statment to work correctly. I did try with another responsity that did not have ListExamples.java and the output was that *ListExample.java found* which is not true. With chaning the command to `-f` my code results in the correct output shown below. 
 
-![Image]()
+![Image](labreport5-3.png)
 
 ## Setup:
 * File & Directory needed
