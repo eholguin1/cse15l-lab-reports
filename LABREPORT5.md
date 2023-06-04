@@ -94,12 +94,13 @@ echo "| Score: $PASSED/$TOTAL |"
 echo "--------------"
 echo ""
 ```
- * No changes to the other files as they were kept the same
+
+  * No changes to the other files as they were kept the same
 * Full Command Lines, you ran to trigger the bug
- * `bash grade.sh https://github.com/ucsd-cse15l-s23/list-examples-duplicates`
+  * `bash grade.sh https://github.com/ucsd-cse15l-s23/list-examples-duplicates`
 * Description of what to edit to fix the bug
- * Rewrote the if statement condition to use the `-f` command and not the `find` command 
- * `find student-submission/ListExamples.java` changed to `-f student-submission/ListExamples.java`
+  * Rewrote the if statement condition to use the `-f` command and not the `find` command 
+  * `find student-submission/ListExamples.java` changed to `-f student-submission/ListExamples.java`
 
 ## Reflection 
 One thing that I learned in the second half of the quarter was the test editor Vim as I have never heard about it before and after using it, it seems like it can be very helpful in the future to edit files. As it is kind of shocking that you can edit a file in the command line and not having to open anything else. I like how there are many differnt shortcut in Vim to make editing faster and not having to leave the keyboard. 
