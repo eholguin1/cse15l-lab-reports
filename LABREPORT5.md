@@ -1,6 +1,6 @@
-## Lab Report 5 - Week 9 (Putting It All Together)
+# Lab Report 5 - Week 9 (Putting It All Together)
 
-# Debugging Scenario 
+## Debugging Scenario 
 
 A student getting errors on an assignmnet in 15L and needs help with debugging the errors and posted a post on EdStem asking for help:
 
@@ -23,7 +23,7 @@ command-line arguments, working directory, even the last few commands you ran. D
 
 > The command that I am using is `bash grade.sh https://github.com/ucsd-cse15l-s23/list-examples-duplicates` as the output should be that all the test passed. With bad implementation the test should fail in the TestListExamples.java if it was checking for two letters that are same in two lists that are being put together. 
 
-# TA response: 
+## TA response: 
 This is a very interesting error. The first thing to try is using grade.sh with a reposiity that does not have ListExamples.java at all and see what the output would be. As well as make sure the echos statements are correct in the first place. One error that could be causing this issue is how you are checking if ListExamples.java is contained in student-submission. Usually, students mix up `-f` and `find` commands that could be causing this error. So make sure you know the differences between these commands. 
 
 
