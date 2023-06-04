@@ -38,6 +38,7 @@ Thank you for the advice as the error was about the mix up with `-f` and `find` 
   * [List-examples-no-file file](https://github.com/ucsd-cse15l-s23/list-examples-no-file) (used for testing)
 * Contents of each file *before* fixing the bug
   *  Modifed `grade.sh`
+  *  No changes to the other files as they were kept the same
 
 ```
     CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
@@ -95,7 +96,6 @@ echo "--------------"
 echo ""
 ```
 
-  * No changes to the other files as they were kept the same
 * Full Command Lines, you ran to trigger the bug
   * `bash grade.sh https://github.com/ucsd-cse15l-s23/list-examples-duplicates`
 * Description of what to edit to fix the bug
