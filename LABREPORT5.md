@@ -38,6 +38,8 @@ Thank you for the advice as the error was about the mix up with `-f` and `find` 
   * [List-examples-no-file file](https://github.com/ucsd-cse15l-s23/list-examples-no-file) (used for testing)
 * Contents of each file *before* fixing the bug
   *  Modifed `grade.sh`
+
+```
     CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 rm -rf student-submission
 rm -rf grading-area
@@ -91,6 +93,7 @@ echo "--------------"
 echo "| Score: $PASSED/$TOTAL |"
 echo "--------------"
 echo ""
+```
 
 * Full Command Lines, you ran to trigger the bug
 * Description of what to edit to fix the bug
