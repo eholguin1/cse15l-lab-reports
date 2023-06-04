@@ -26,6 +26,11 @@ command-line arguments, working directory, even the last few commands you ran. D
 ## TA response: 
 This is a very interesting error. The first thing to try is using grade.sh with a reposiity that does not have ListExamples.java at all and see what the output would be. As well as make sure the echos statements are correct in the first place. One error that could be causing this issue is how you are checking if ListExamples.java is contained in student-submission. Usually, students mix up `-f` and `find` commands that could be causing this error. So make sure you know the differences between these commands. 
 
+## Student's response and Using advice: 
+Thank you for the advice as the error was about the mix up with `-f` and `find` command as I was using the `find` command which results in the paths of the file we are searching for. While `-f` command will return a boolean which is what we need of the if statment to work correctly. I did try with another responsity that did not have ListExamples.java and the output was that *ListExample.java found* which is not true. With chaning the command to `-f` my code results in the correct output shown below. 
+
+![Image]()
+
 
 
 
